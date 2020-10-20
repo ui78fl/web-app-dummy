@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Fake News Detection</title>
 </head>
 <body>
 
-<h1>My Dummy Web App</h1>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">
+            <img src="img/mail_outline-24px.svg" alt="">
+        </a>
+        <span class="navbar-text">
+            Inbox
+        </span>
+    </nav>
+</div>
 
+<div class="container">
+    <div class="p-2 mt-1 bg-primary text-white">
+        <div class="row">
+            <div class="col">
+                Task Open
+            </div>
+            <div class="col-6">
+                <p class="font-weight-bold">Virtual reality to help detect early risk of Alzheimer</p>
+                <p>The Guardian | 3 Minutes ago</p>
+            </div>
+            <div class="col">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Open Article
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="exampleModalLabel">Virtual reality to help detect early risk of Alzheimer</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p class="text-dark"> A Chicago couple who previously suffered two
+                                                    miscarriages recently welcomed a healthy baby boy thanks to a
+                                                    breakthrough new fertility test which helps women struggling with
+                                                    achieving a successful pregnancy by examining the mother's DNA. The
+                                                    test is offering new hope to many family's struggling to conceive.
+                                                    Carolyn Bilson and Tim O'Brien met three years ago, and say it was
+                                                    love at first sight. Literally a month later we knew, we wanted to
+                                                    have children, Bilson told Good Morning America. ABC News But after
+                                                    two miscarriages, Bilson, then pushing 40, said the couple sought
+                                                    help from a fertility specialist in Chicago who recommended in vitro
+                                                    fertilization. Their first attempt at IVF, however, failed too,
+                                                    according to Bilson. I think it was just so devastating, because we
+                                                    didn't anticipate that, she said. We thought the hard part would be
+                                                    getting pregnant, not staying pregnant. O'Brien added that the most
+                                                    frustrating thing was that you didn't learn anything from the
+                                                    previous miscarriage. So, there wasn't, 'What could we do
+                                                    differently?' The couple then learned about a new way to tailor
+                                                    fertility treatments specifically to the DNA of the mother, using a
+                                                    test that can help couples figure out the perfect time for
+                                                    conception, based on that DNA. ABCNews.com The Endometrial
+                                                    Receptivity Test uses a tissue sample to look at 238 genes to find
+                                                    out the optimum time for conception, thus increasing the couple's
+                                                    chance to conceive. For Bilson, that time is two days later than the
+                                                    average woman. Dr. Ilan Tur-Kaspa, an OB-GYN and the director of
+                                                    Chicago's Institute for Human Reproduction, described the process as
+                                                    personalized medicine. ABC News This is what we are trying to do
+                                                    here by personalized medicine, Tur-Kaspa said, adding that you can
+                                                    make sure that the uterus is ready, and optimize a time for
+                                                    implantation. The result: Their beautiful baby Westley, who is now
+                                                    nine months old. We're so lucky, Bilson said. We're so blessed. ABC
+                                                    News OB-GYN Dr. Jessica Shepherd told GMA that this breakthrough new
+                                                    treatment is very exciting to the medical community because it
+                                                    offers another avenue for women who have recurrent miscarriages to
+                                                    potentially get pregnant, when it is something they never thought
+                                                    they could look forward to. The new technique works by having a
+                                                    doctor take a sample of the women's endometrial tissue, which you
+                                                    can get DNA from, and from that DNA you can tell what part of the
+                                                    cycle is prime time to take the fertilized egg and implant it via
+                                                    IVF, Shepherd added. Shepherd said that the ideal candidates are
+                                                    women who have had three or more miscarriages or women over 40, but
+                                                    emphasized that the test is not for everyone and infertility is a
+                                                    spectrum. One risk of the procedure many women may not take into
+                                                    account is the emotional effects of it not working and you still
+                                                    miscarrying, Shepherd said. It is a new process and important to go
+                                                    over the risks of the procedure -- which can vary per person -- with
+                                                    your health care provider.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p class="text-dark">Explanatory Facilities</p>
+                                                <ul class="list-group list-group-flush text-dark">
+                                                    <li class="list-group-item">Explanation I</li>
+                                                    <li class="list-group-item">Explanation II</li>
+                                                    <li class="list-group-item">Explanation III</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Fake News</button>
+                                <button type="button" class="btn btn-primary">True News</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="p-2 mt-1 bg-primary text-white">
+        <div class="row">
+            <div class="col">
+                Task Open
+            </div>
+            <div class="col-6">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+            </div>
+            <div class="col">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                    Open Article
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="exampleModalLabel2">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-dark"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                    nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                                    ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Fake News</button>
+                                <button type="button" class="btn btn-primary">True News</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 </html>
